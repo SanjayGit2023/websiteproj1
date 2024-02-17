@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: assignment1-deployment
+  name: assignment1
   labels:
     app: nginx
 spec:
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ubuntu123am/app1
+        image: san21doc/simpleapp
         ports:
         - containerPort: 80
