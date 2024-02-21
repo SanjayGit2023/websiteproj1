@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: san21doc/simpleapp
+        image: san21doc/prtimages
         ports:
         - containerPort: 80
